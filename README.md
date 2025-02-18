@@ -2,6 +2,7 @@
 👉 "Our API automation framework is designed to ensure the reliability, performance, and security of API endpoints by automating test execution. It is built using Java with RestAssured, Cucumber for BDD, and integrated with tools like TestNG or JUnit for test execution and reporting."
 
 2. Architecture & Tech Stack
+
 📌 Tech Stack:
 
 Java – Main programming language
@@ -11,6 +12,7 @@ TestNG / JUnit – Test execution & assertions
 Maven / Gradle – Dependency management
 Extent Reports / Allure – Reporting
 Jenkins / GitHub Actions – CI/CD integration
+
 📌 Architecture:
 
 Feature Files (Cucumber BDD) – Define test scenarios in a readable format.
@@ -18,6 +20,8 @@ Step Definitions – Implement test logic using RestAssured.
 Utility Classes – Handle API requests, responses, and configurations.
 Configurations – Store API URLs, authentication, and environment settings.
 Reports & Logs – Generate HTML and JSON reports for better test insights.
+
+
 3. How It Works
 1️⃣ Test Execution Trigger – Tests are triggered via Maven/TestNG/JUnit.
 2️⃣ Request Construction – Uses RestAssured to send API requests (GET, POST, PUT, DELETE).
